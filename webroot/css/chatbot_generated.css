@@ -1,0 +1,41 @@
+      body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand {
+            color: white;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: white;
+        }
+        .hero {
+            background-color: #f39c12;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .services {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .services h2 {
+            margin-bottom: 30px;
+        }
+        .service {
+            margin-bottom: 30px;
+        }
+        .service img {
+            max-width: 100px;
+            margin-bottom: 15px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }

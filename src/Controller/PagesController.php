@@ -70,4 +70,12 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
+
+    public function domains_homepage() {
+        $this->render('domains_homepage'); 
+    }
+
+    public function domains_register() {
+        $this->render('domains_register');
+    }
 }

@@ -1,0 +1,22 @@
+   body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background-color: #FFA500;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .service-card {
+            border: none;
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .pricing-section {
+            background-color: #003366;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }

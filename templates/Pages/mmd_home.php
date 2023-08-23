@@ -54,13 +54,13 @@ endif;
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        CakePHP: the rapid development PHP framework:
+        Welcome to MMD | Man Made Digital | <?= $this->request->getParam('controller'); ?>
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-
+    <link href="css/custom.css" rel="stylesheet">
     <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake', 'home']) ?>
 
     <?= $this->fetch('meta') ?>

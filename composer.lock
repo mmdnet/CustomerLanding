@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf4acc9af81e6ac2fc72dbbb514c2b0d",
+    "content-hash": "197d8049b52b3ea491daa81834919624",
     "packages": [
         {
             "name": "cakephp/cakephp",
@@ -286,6 +286,61 @@
             "time": "2020-10-29T04:00:42+00:00"
         },
         {
+            "name": "cbschuld/browser.php",
+            "version": "v1.9.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cbschuld/Browser.php.git",
+                "reference": "9d07d6410977d494d7b8ecc2f3c877645c5477d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cbschuld/Browser.php/zipball/9d07d6410977d494d7b8ecc2f3c877645c5477d9",
+                "reference": "9d07d6410977d494d7b8ecc2f3c877645c5477d9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/Browser.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Schuld",
+                    "email": "chris@chrisschuld.com",
+                    "homepage": "https://chrisschuld.com"
+                }
+            ],
+            "description": "A PHP Class to detect a user's Browser.  This encapsulation provides a breakdown of the browser and the version of the browser using the browser's user-agent string.  This is not a guaranteed solution but provides an overall accurate way to detect what browser a user is using.",
+            "homepage": "https://chrisschuld.com/projects/browser-php-detecting-a-users-browser-from-php/",
+            "keywords": [
+                "browser",
+                "detection",
+                "user agent"
+            ],
+            "support": {
+                "issues": "https://github.com/cbschuld/Browser.php/issues",
+                "source": "https://github.com/cbschuld/Browser.php/tree/master"
+            },
+            "time": "2020-04-14T18:46:44+00:00"
+        },
+        {
             "name": "composer/ca-bundle",
             "version": "1.3.6",
             "source": {
@@ -360,6 +415,55 @@
                 }
             ],
             "time": "2023-06-06T12:02:59+00:00"
+        },
+        {
+            "name": "dereuromark/cakephp-meta",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dereuromark/cakephp-meta.git",
+                "reference": "b8a4fbe502b81fa60c4bf2748586f896bd4311f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-meta/zipball/b8a4fbe502b81fa60c4bf2748586f896bd4311f1",
+                "reference": "b8a4fbe502b81fa60c4bf2748586f896bd4311f1",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^4.2.0",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "fig-r/psr2r-sniffer": "dev-master",
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Meta\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Meta plugin for CakePHP",
+            "homepage": "https://github.com/dereuromark/cakephp-meta",
+            "keywords": [
+                "cakephp",
+                "canonical",
+                "meta",
+                "plugin",
+                "seo",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/dereuromark/cakephp-meta/issues",
+                "source": "https://github.com/dereuromark/cakephp-meta/tree/master"
+            },
+            "time": "2023-07-24T10:44:54+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -5850,7 +5954,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "dereuromark/cakephp-meta": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
